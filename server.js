@@ -2,7 +2,7 @@ var express = require('express');
 
 var app = express();
 app.get('/', function(req, res) {
-    res.send('<h1> Hola Mundo saludando desde GitHub y Docker Hub!!! Desde Costa Rica¡¡¡ </h1>');
+    res.send('<h1> Hola Mundo saludando desde GitHub y Docker Hub! Desde Costa Rica¡¡¡ </h1>');
 });
 app.get('/random', function(req, res) {
 	var col = ['red','green','blue']
